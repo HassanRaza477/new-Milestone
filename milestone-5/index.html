@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Resume Input</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="main">
+    <h1>Enter Your Resume Information</h1>
+    <form id="resume-form">
+
+        <div class="personal">Personal Info</div>
+        <label for="name" class="second">Name:</label>
+        <input type="text" id="name"><br><br>
+
+        <label for="email" class="second">Email:</label>
+        <input type="email" id="email"><br><br>
+
+        <label for="phone" class="second">Phone:</label>
+        <input type="text" id="phone"><br><br>
+
+        <label for="address" class="second">Address:</label>
+        <input type="text" id="address"><br><br>
+
+
+        <div class="personal">Skills</div>
+        <label for="skills" class="second">Skills:</label>
+        <input type="text" id="skills"><br><br>
+
+        <div class="personal">Education</div>
+        <label for="education" class="second">Education:</label>
+        <textarea id="education"></textarea><br><br>
+
+        <div class="personal">Experience</div>
+       <label for="experience">Experience:</label>
+        <textarea id="experience"></textarea><br><br>
+
+        <a href="#" onclick="saveData()" class="btn1">Generate Resume <i class='bx bx-right-arrow-alt'></i></a>
+    </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
